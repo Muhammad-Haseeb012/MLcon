@@ -1,0 +1,344 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html,body{
+      width: 100%;
+      height: 100%;
+}
+
+#main{
+     width: 100%;
+     height: 100%;
+    /* background-color: red;*/
+}
+
+#nav{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+
+#nav #left{
+       width: 30%;
+    /*  background-color: orange; */
+       background-color: black;
+      display: flex;
+      justify-content: center;
+}
+
+#nav #left img{
+     padding: 15px 0;
+}
+
+#nav #right{
+    width: 70%;
+  /* background-color: purple;*/
+   background-color: black;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+#nav #right a{
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: 500;
+}
+
+#nav  #right a:hover{
+      color: rgb(224, 152, 20);
+}
+
+#content{
+    width: 100%;
+    height: 70%;
+  background-color: purple;
+  background-image: url(Images/sunset.png);
+   background-size: cover;
+   background-position: center;  
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+#content h2{
+      font-size: 55px;
+      font-weight: 900;
+      color: orange;
+}
+
+#content p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#rectangle{
+    width: 100%;
+   /* background-color: green;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#rectangle #left {
+     width: 30%;
+     height: 100%;
+    /* background-color: orange;*/
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+#rectangle #left i{
+      font-size: 50px;
+      color: rgb(93, 93, 150);
+      margin: 10px 0px;
+}
+#rectangle #left h2{
+  color: rgb(69, 67, 67);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#rectangle #left h4{
+    color: rgb(69, 67, 67);
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #rectangle #left p{
+    color: rgb(69, 67, 67);
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+
+#rectangle #mid{
+  width: 35%;
+  height: 100%;
+  /*background-color: rgb(17, 0, 128);*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#rectangle #mid i{
+    font-size: 50px;
+    color: rgb(93, 93, 150);
+    margin: 10px 0px;
+}
+#rectangle #mid h2 {
+    color: rgb(69, 67, 67);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#rectangle #mid h4 {
+    color: rgb(69, 67, 67);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#rectangle #mid p{
+    color: rgb(69, 67, 67);
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+#rectangle #right{
+  width: 35%;
+  height: 100%;
+ /*background-color:  yellow;*/
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+#rectangle #right i{
+    font-size: 50px;
+    color: rgb(93, 93, 150);
+    margin: 10px 0px;
+  
+}
+
+#rectangle #right h2 {
+    color: rgb(69, 67, 67);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#rectangle #right h4 {
+    color: rgb(69, 67, 67);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#rectangle #right p{
+    color: rgb(69, 67, 67);
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  #heading{
+       width: 100%;
+       height: 100px;
+   /*   background-color: green;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #heading h3{
+       text-align: center;
+        font-size: 30px;
+        color: burlywood;
+
+  }
+
+  #card{
+    width: 100%;
+   
+    background-color: red;
+    margin-top:10px;
+    display: flex;
+}
+
+#card #left{
+    width: 50%;
+    height: 100%;
+    background-color: burlywood; 
+}
+
+
+
+#card #right{
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+form label{ 
+     display: block;
+     font-size: 30px;
+     color: white;
+     margin: 10px 0px;
+     margin-left: 20px;
+}
+
+form input{
+    width: 80%;
+    height: 50px;
+    margin-left: 20px;
+}
+ form #message{
+    height: 130px;
+ }
+
+ form #submit{
+    margin-top: 10px;
+     width: 25%;
+     height: 30px;
+     margin-bottom: 20px;
+ }
+
+ #last{
+     width: 100%;
+     height: 20px;
+     background-color: rgb(118, 176, 118);
+ }
+@media(max-width: 320px ){
+
+    #nav{
+         position: static;
+        flex-direction: column;
+    }
+    #nav #left {
+       flex-direction: column;
+       /* background-color: green;*/
+        width: 100%;
+        align-items: center;
+    }
+    #nav img{
+        width: 50px;
+        height: 50px;
+    }
+    #nav #right {
+        flex-direction: column;
+         width: 100%;
+        
+    }
+    #content {
+        background-size: 100% 100%; 
+    }
+
+    #content h2{
+   
+         padding: 0px;
+         margin-top: 90px;
+         font-size: 25px;
+       /*  background-color: purple;*/
+    }
+
+    #content p{
+        padding: 0 10px; 
+        margin-top: 40px; 
+        font-size: 20px;
+      /*  background-color: rgb(38, 0, 128);*/
+   }
+
+   #rectangle {
+    flex-direction: column;
+   /* background-color: red;*/
+}
+
+    #rectangle #left{
+   /* background-color: purple;*/
+       width: 100%;
+       margin-top: 20px;
+  }
+ 
+    #rectangle #left h4{
+    text-align: center;
+}
+     #rectangle #mid{
+/* background-color: orange;*/
+      width: 100%; 
+      margin-top: 20px; 
+}
+
+   #rectangle #mid h4{
+    text-align: center;
+}
+
+#rectangle #right{
+ /*  background-color: pink;*/
+     width: 100%;
+     margin-top: 20px;
+}
+
+#rectangle #right h4{
+    text-align: center;
+}
+   #card{
+      flex-direction: column;
+   }
+
+   #card #left{
+     width: 100%;
+     height: auto;
+   }
+   #card #right{
+    width: 100%;
+  }
+}  

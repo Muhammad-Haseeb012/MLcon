@@ -1,0 +1,549 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+       width: 100%;
+       height: 100%;
+     /*  background-color: red;*/
+}
+
+#nav{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+
+#nav #left{
+       width: 30%;
+    /*  background-color: orange; */
+       background-color: black;
+      display: flex;
+      justify-content: center;
+}
+
+#nav #left img{
+     padding: 15px 0;
+}
+
+#nav #right{
+    width: 70%;
+  /* background-color: purple;*/
+   background-color: black;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+#nav #right a{
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: 500;
+}
+
+#nav  #right a:hover{
+      color: rgb(224, 152, 20);
+}
+
+#content{
+     width: 100%;
+    background-color: purple;
+    background-image: url(Images/backgroundImage4.png);
+    background-size: cover;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#content h3{
+    margin-top: 90px;
+    color:  white;
+    font-size: 35px;
+}
+
+#content h1{
+  color:  white;
+  font-size: 25px;
+   margin-top: 20px;
+}
+
+#tag{
+    width: 600px;
+    height: 50px;
+    background-color:  rgb(72, 69, 69); 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+#tag h5{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#tag i{
+
+    font-size: 35px;
+   color: white;
+   margin-top: 10px;
+
+}
+#content button{
+      width: 180px;
+      height: 80px;
+     background-color: rgb(72, 69, 69);
+       cursor: pointer;
+       margin-top: 40px;
+       margin-bottom: 20px;
+       border-radius: 20px;
+}
+
+
+#content button h4{
+     color: white;
+     font-size: 20px;
+     padding: 0px 20px;
+}
+
+#rectangle{
+      width: 100%;
+      background-color: rgb(205, 205, 247);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+#rectangle #left {
+       width: 30%;
+       height: 100%;
+      /* background-color: orange;*/
+     
+}
+
+#rectangle #left h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+#rectangle #mid{
+    width: 35%;
+    height: 100%;
+   /* background-color: green;*/
+  
+}
+
+#rectangle #mid img{
+    width: 200px;
+    height: 100px;
+  /*  background-color: pink;*/
+    margin-left: 150px;
+}
+#rectangle #mid h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+#rectangle #mid p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#rectangle #right{
+    width: 35%;
+    height: 100%;
+  /*  background-color:  yellow;*/
+}
+
+#rectangle #right img{
+    width: 200px;
+    height: 100px;
+   /* background-color: pink;*/
+    margin-left: 180px;
+    
+}
+
+#rectangle #right h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+#rectangle #right p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#card1{
+    width: 100%;
+    height: 60%;
+  /*  background-color: red;*/
+    margin-top:10px;
+    display: flex;
+}
+
+#card1 #left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(185, 104, 104); 
+}
+
+#card1 #left h2{
+
+    font-size: 25px;
+    font-weight: 700;
+    text-align: start;
+    padding: 20px;
+}
+
+#card1 #left li{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+#card1 #right{
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+#card1 #right h2{
+    color: brown;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+#card1 #right p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+#card1 #right button{
+     width: 120px;
+     height: 60px;
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 9px;
+     margin-top: 20px;
+     margin-left: 30px;
+     cursor: pointer;
+}
+
+#card2{
+    width: 100%;
+    height: 60%;
+    background-color: red;
+    margin-top:10px;
+    display: flex;
+ }
+
+ #card2 #right{
+    width: 50%;
+    height: 100%;
+    background-color:  rgb(124, 124, 194);
+ }
+
+ #card2 #right h3{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+#card2 #right p{
+     font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 90px;
+ }
+
+ #card2 #left{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+ }
+
+ #card2 #left #top{
+    width: 100%;
+    height: 50%;
+    background-color:  rgb(124, 124, 194);
+    display: flex;
+    justify-content: center;
+      gap: 40px;
+    padding-top:10px;
+}
+
+#card2 #left #bottom{
+    width: 100%;
+    height: 50%;
+    background-color:  rgb(124, 124, 194);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top:10px;
+ }
+
+ .pics{
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+
+.pics img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#card3 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(97, 91, 91);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .loader {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(124, 124, 194);
+    border-radius: 50%;
+    border: 5px dotted; 
+    animation: rotate 12s linear infinite;
+ }
+ 
+ #loader1 { border-color: rgb(224, 152, 20); }
+ #loader2 { border-color: green; }
+ #loader3 { border-color: rgb(43, 0, 128); }
+ 
+ 
+ .photos{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 12px; 
+    position: relative;
+    right: 245px;
+ }
+ 
+ @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);   
+    }
+ }
+
+ #last{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(118, 176, 118);
+}
+@media(max-width: 320px ){
+
+       #nav{
+            position: static;
+           flex-direction: column;
+       }
+       #nav #left {
+          flex-direction: column;
+          /* background-color: green;*/
+           width: 100%;
+           align-items: center;
+       }
+       #nav img{
+           width: 50px;
+           height: 50px;
+       }
+       #nav #right {
+           flex-direction: column;
+            width: 100%;
+            padding-bottom: 10px;
+           
+       }
+        #content{
+            background-size: 100% 100%; 
+          
+        }
+      #content h3{
+        /*  background-color: red;*/
+           width: 100%;
+           margin-top: 150px;
+           text-align: center;
+           font-size: 40px;
+      }
+
+      #content h1{
+       /* background-color: blue;*/
+         width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    #content #tag{
+          width: 90%;
+        justify-content: center;
+          height: 50px;
+    }
+    #content #tag i{
+         font-size: 25px;
+         margin-left: 20px;
+    }
+    #content #tag h5{
+        font-size: 15px;
+        padding-bottom: 10px;
+   }
+   #content button {
+       width: 70%;
+      /* background-color: red;*/
+       height: 50px;
+   }
+        #rectangle {
+             flex-direction: column;
+        }
+
+        #rectangle #left{
+           /*  background-color: purple;*/
+             width: 100%;
+        }
+
+        #rectangle #mid{
+           /* background-color: orange;*/
+            width: 100%;     
+        }
+         
+        #rectangle #mid img{
+           /* background-color: pink;*/
+             width: 100%;
+             height: auto;
+             margin: 0;
+             padding: 20px;
+        }
+
+        #rectangle #right{
+         /*   background-color: pink;*/
+            width: 100%;
+        }
+
+        #rectangle #right img{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 10px;
+       }
+
+       #card1{
+          flex-direction: column;
+          height: auto;
+       }
+
+       #card1 #left{
+        width: auto;
+        padding-bottom: 20px;
+
+     }
+
+     #card1 #right{
+        margin-top: 20px;
+        width: 100%;
+     
+     }
+     #right button{
+       
+        margin-bottom: 30px;
+        
+     }
+
+     #card2 {
+          flex-direction: column;
+          height: auto;
+     }
+
+     #card2 #left{
+        width: 100%;
+     }
+      #card2 #left #top{
+          flex-direction: column;
+          align-items: center;
+        /*  background-color: pink;*/
+        
+      }
+      #card2 #left #bottom{
+        flex-direction: column;
+         align-items: center;
+       /* background-color: pink;*/
+    }
+
+    #card2 #right{
+        width: 100%;
+        
+    }
+    #card2 #right p{
+          text-align: start;
+          padding: 40px;
+         font-size: 16px;
+      /*   background-color: red;*/
+    }
+
+    #card2 #right h3{
+        text-align: start;
+        padding: 40px;
+     /*  background-color: rgb(0, 0, 255);*/
+  }
+
+  #card3 {
+    flex-direction: column;
+      height: auto;
+      padding-top: 20px;
+}
+
+#card3 img{
+   position : relative;
+   left: 3px;
+   bottom: 200px;
+}
+   
+}
+
+
