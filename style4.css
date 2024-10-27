@@ -101,22 +101,100 @@ html,body{
      width: 50%;
      height: 100%;
      background-color: rgb(179, 236, 179);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+#card2 #left h3{
+    font-size: 35px;
+    font-weight: 800;
 }
 
 #card2 #left p{
-      font-size: 20px;
-      padding: 40px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#card2 #points {
+      display: flex;
 }
 
 #card2 #right{
     width: 50%;
     height: 100%;
     background-color: rgb(233, 178, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card2 #right h3{
+    font-size: 35px;
+    font-weight: 800;
 }
 
 #card2 #right p{
-    font-size: 20px;
-    padding: 40px;
+    font-size: 18px;
+    padding: 35px 20px;
+}
+
+#card2 #points {
+      display: flex;
+}
+
+#card3{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(203, 193, 181);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card3 h3{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#card3 p{
+    font-size: 18px;
+    padding: 25px 20px;
+}
+
+#card3 h6{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px ;
+}
+#card3 h6 i{
+      color: green;
+}
+
+#card4{
+      width: 100%;
+      height: 30%;
+      background-color: rgb(233, 178, 178);
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+#card4 h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#card4 p{
+    font-size: 18px;
+    padding: 25px 20px;
 }
 
 #footer{
@@ -138,7 +216,7 @@ html,body{
     #nav{
         position: static;
        flex-direction: column;
-         height: auto;
+           height: auto;
    }
    #nav #left {
       flex-direction: column;
@@ -153,14 +231,14 @@ html,body{
    #nav #right {
        flex-direction: column;
         width: 100%;
-        height: auto;
-       
+         height: auto;
    }
+        
 
    #content{
         width: 100%;
-        height: auto;
-       /* background-color: red;*/
+         height: auto;
+      /*  background-color: red;*/
 
    }
 
@@ -169,7 +247,6 @@ html,body{
     margin: 0;
     width: 100%;
     height: auto;
-  
     }
 
     #card1{
@@ -194,21 +271,69 @@ html,body{
 
     #card2 #left{
          width: 100%;
-         font-size: 12px;
+       
+    }
+    #card2 #left h3{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 20px;
     }
 
     #card2 #left p{
-        font-size: 15px;
-   }
-
+        font-size: 12px;
+        padding: 10px 20px;
+    }
    #card2 #right{
     width: 100%;
-    font-size: 12px;
-}
+   
+    }
+    #card2 #right h3{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
 
-#card2 #right p{
-   font-size: 15px;
-  }
+    #card2 #right p{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    #card3 {
+         height: auto;
+    }
+
+    #card3  h3{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    
+    #card3  p{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    #card3  h6{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    #card4 {
+         height: auto;
+    }
+
+    #card4 h2{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    #card4  p{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
   #footer p{
     font-size: 25px;
   }

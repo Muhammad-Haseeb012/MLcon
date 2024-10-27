@@ -386,6 +386,7 @@ html,body{
        #nav{
             position: static;
            flex-direction: column;
+               height: auto;
        }
        #nav #left {
           flex-direction: column;
@@ -400,13 +401,10 @@ html,body{
        #nav #right {
            flex-direction: column;
             width: 100%;
-            padding-bottom: 10px;
+            height: auto;
            
        }
-        #content{
-            background-size: 100% 100%; 
-          
-        }
+      
       #content h3{
         /*  background-color: red;*/
            width: 100%;
