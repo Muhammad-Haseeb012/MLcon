@@ -58,25 +58,28 @@ html,body{
 
 #content{
      width: 100%;
+     height: 90%;
     background-color: purple;
-    background-image: url(Images/backgroundImage4.png);
+    background-image: url(Images/backgroundImage5.png);
     background-size: cover;
       display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-
-#content h3{
-    margin-top: 90px;
-    color:  white;
-    font-size: 35px;
+    justify-content: start;
+ 
 }
 
 #content h1{
+    color:  white;
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 120px;
+}
+
+#content h3{
   color:  white;
   font-size: 25px;
-   margin-top: 20px;
+  margin-top:10px;
 }
 
 #tag{
@@ -85,7 +88,8 @@ html,body{
     background-color:  rgb(72, 69, 69); 
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-top: 10px;
+  
 }
 
 #tag h5{
@@ -103,12 +107,11 @@ html,body{
 
 }
 #content button{
+    margin-top: 10px;
       width: 180px;
-      height: 80px;
+      height: 60px;
      background-color: rgb(72, 69, 69);
        cursor: pointer;
-       margin-top: 40px;
-       margin-bottom: 20px;
        border-radius: 20px;
 }
 
@@ -119,18 +122,19 @@ html,body{
      padding: 0px 20px;
 }
 
-#rectangle{
+  #rectangle{
       width: 100%;
-      background-color: rgb(205, 205, 247);
+      background-color: rgb(40, 39, 39);
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+      margin-top: 20px;
 }
 
 #rectangle #left {
        width: 30%;
        height: 100%;
-      /* background-color: orange;*/
+       background-color: maroon;
      
 }
 
@@ -148,7 +152,7 @@ html,body{
   
 }
 
-#rectangle #mid img{
+ #rectangle #mid img{
     width: 200px;
     height: 100px;
   /*  background-color: pink;*/
@@ -199,6 +203,7 @@ html,body{
     text-align: center;
     padding-bottom: 20px;
 }
+
 #card1{
     width: 100%;
     height: 60%;
@@ -210,7 +215,7 @@ html,body{
 #card1 #left{
     width: 50%;
     height: 100%;
-    background-color: rgb(185, 104, 104); 
+    background-color: rgb(244, 180, 180); 
 }
 
 #card1 #left h2{
@@ -229,10 +234,11 @@ html,body{
     padding-top: 18px;
 }
 
+
 #card1 #right{
     width: 50%;
     height: 100%;
-    background-color: burlywood;
+    background-color: rgb(182, 206, 182);
 }
 
 #card1 #right h2{
@@ -275,7 +281,7 @@ html,body{
  #card2 #right{
     width: 50%;
     height: 100%;
-    background-color:  rgb(124, 124, 194);
+    background-color:  rgb(58, 56, 56);
  }
 
  #card2 #right h3{
@@ -302,7 +308,7 @@ html,body{
  #card2 #left #top{
     width: 100%;
     height: 50%;
-    background-color:  rgb(124, 124, 194);
+    background-color: rgb(58, 56, 56);
     display: flex;
     justify-content: center;
       gap: 40px;
@@ -312,7 +318,7 @@ html,body{
 #card2 #left #bottom{
     width: 100%;
     height: 50%;
-    background-color:  rgb(124, 124, 194);
+    background-color: rgb(58, 56, 56);
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -338,7 +344,7 @@ html,body{
 #card3 {
     width: 100%;
     height: 50%;
-    background-color: rgb(97, 91, 91);
+    background-color: maroon;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -376,11 +382,21 @@ html,body{
     }
  }
 
- #last{
-    width: 100%;
-    height: 20px;
-    background-color: rgb(118, 176, 118);
+ #footer{
+    margin-top: 10px;
+     width: 100%;
+     height: 10%;
+     background-color: rgb(171, 203, 214);
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
+
+#footer p{
+    font-size: 30px;
+    font-weight: 800;
+}
+    
 @media(max-width: 320px ){
 
        #nav{
@@ -404,71 +420,113 @@ html,body{
             height: auto;
            
        }
+
+       #content{
+          width: 100%;
+          height: auto;
+          background-color: purple;
+           margin-top: 20px;
+       }
       
-      #content h3{
-        /*  background-color: red;*/
+      #content h1{
+        margin: 0px;
+        padding: 10px 0px;
+         /* background-color: red;*/
            width: 100%;
-           margin-top: 150px;
+           font-size: 35px;
            text-align: center;
-           font-size: 40px;
+           color: maroon;
       }
 
-      #content h1{
-       /* background-color: blue;*/
+       #content h3{
+      /*  background-color: blue;*/
          width: 100%;
         font-size: 20px;
-        text-align: center;
+        padding: 10px;
+          margin: 0;
+          color: maroon;
+         
     }
     #content #tag{
           width: 90%;
-        justify-content: center;
-          height: 50px;
+          height: auto;
+        
     }
     #content #tag i{
-         font-size: 25px;
-         margin-left: 20px;
+         font-size: 15px;
+         padding-left: 10px;
     }
     #content #tag h5{
         font-size: 15px;
-        padding-bottom: 10px;
+        margin-bottom: 10px;
    }
    #content button {
-       width: 70%;
-      /* background-color: red;*/
-       height: 50px;
+       width: 50%;
+       height:40px;
+       margin-bottom: 20px;
    }
+   #content button h4{
+    font-size: 15px;
+   }
+   
         #rectangle {
              flex-direction: column;
+             height: auto;
         }
 
         #rectangle #left{
-           /*  background-color: purple;*/
-             width: 100%;
+            margin-top: 20px;
+          /*  background-color: purple;*/
+              width: 100%;
+        }
+
+        #rectangle #left h3{
+             font-size: 25px;
         }
 
         #rectangle #mid{
            /* background-color: orange;*/
-            width: 100%;     
+            width: 100%;  
+            height: auto;  
+            margin-top: 20px; 
         }
-         
+        
+        #rectangle #mid h4{
+            font-size: 25px;
+        }
+
+         #rectangle #mid p{
+            font-size: 15px;
+        }
+
         #rectangle #mid img{
            /* background-color: pink;*/
-             width: 100%;
+             width: 70%;
              height: auto;
              margin: 0;
-             padding: 20px;
+             margin-left: 55px;
         }
 
-        #rectangle #right{
-         /*   background-color: pink;*/
-            width: 100%;
+       #rectangle #right{
+          /* background-color: pink;*/
+              width: 100%;
+              height: auto;
+              margin-top: 20px; 
         }
 
+        #rectangle #right h4{
+            font-size: 25px;
+        }
+
+         #rectangle #right p{
+            font-size: 15px;
+        }
         #rectangle #right img{
-            width: 100%;
+            width: 70%;
             height: auto;
             margin: 0;
-            padding: 10px;
+          /* background-color: red;*/
+           margin-left: 55px;
        }
 
        #card1{
@@ -479,17 +537,36 @@ html,body{
        #card1 #left{
         width: auto;
         padding-bottom: 20px;
-
+        height: auto;
+        /*background-color: red;*/
+     }
+       
+     #card1 #left h2{
+         font-size: 25px;
+     }
+      
+     #card1 #left ul li{
+          font-size: 15px;
      }
 
      #card1 #right{
         margin-top: 20px;
         width: 100%;
-     
+        height: auto;
      }
+      
+     #card1 #right h2{
+        font-size: 25px;
+     }
+
+     #card1 #right p{
+        font-size: 15px;
+     }
+
      #right button{
-       
-        margin-bottom: 30px;
+          
+       color: red;
+       margin-bottom: 20px;
         
      }
 
@@ -542,6 +619,9 @@ html,body{
    bottom: 200px;
 }
    
+#footer p{
+    font-size: 25px;
+  }
 }
 
 
