@@ -258,6 +258,20 @@ form input{
      height: 20px;
      background-color: rgb(118, 176, 118);
  }
+ #NameResult{
+    color: red;
+    margin-left: 50px;
+}
+
+#EmailResult{
+    color: red;
+    margin-left: 50px;
+}
+
+#NumberResult{
+    color: red;
+    margin-left: 50px;
+}
 @media(max-width: 320px ){
 
     #nav{

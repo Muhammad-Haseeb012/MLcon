@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="app2.js"></script>
 </head>
 
 <body>
@@ -63,21 +64,24 @@
         
         <div id="card">
             <div id="left">
-                   <form action="">
+                   <form action="" onsubmit="return validate()">
 
                      <div>
                          <label for="name">Name : </label>
                          <input type="text" name="UserName" id="name">
+                         <div id="NameResult"> </div>
                       </div>
 
                      <div>
                          <label for="email">Email : </label>
                          <input type="text" name="UserEmail" id="email">
+                         <div id="EmailResult"> </div>
                         </div>
-
+                          
                         <div>
                             <label for="number">Number : </label>
                             <input type="text" name="UserNumber" id="number">
+                            <div id="NumberResult"> </div>
                            </div>
 
                        <div>
