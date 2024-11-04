@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+   width: 100%;
+   height: 100%;
+}
+
+#main{
+      width: 100%;
+      height: 100%;
+     background-color: red;
+     background-image: url(Images/login.png);
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+}
+
+.container{
+
+    width: 25%;
+    height: 69%;
+    background-color: transparent;
+    margin-right: 100px;
+    border: 0.5px dotted black;
+  
+}
+
+.container h2{
+    font-weight: 900;
+    padding-left: 37%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+.container label{
+  
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.container  input{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  border: 2px solid black;
+  width: 80%;
+  background-color: transparent;
+}
+
+#sub{
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin-top: 40px;
+}
+
+#NameResult{
+  color: red;
+  margin-left: 50px;
+}
+
+#PasswordResult{
+    color: red;
+    margin-left: 50px;
+}
+#ConfirmPasswordResult{
+    color: red;
+    margin-left: 50px;     
+}
+
+@media(max-width:320px){
+
+    #main{
+         width: 100%;
+          height: auto;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .container{
+         width: 90%;
+         height: auto;
+        /* background-color: red;*/
+         margin: 60px 0;
+         padding: 0;
+         
+    }
+    .container  h2{
+         margin: 30px 0px;
+        
+    }
+
+}

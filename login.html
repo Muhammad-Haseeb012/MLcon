@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="loginjavascript.js"></script>
+</head>
+<body>
+       <div id="main">
+          
+        <div class="container" >
+            <h2>Login Form</h2>
+
+             <form action="practice.html" onsubmit="return validate()">
+
+                  <label for="UserName">Enter UserName : </label>
+                   <input type="text" id="UserName" name="UserName">
+                   <div id="NameResult">  </div>
+
+                   <label for="UserPassword">Enter Password : </label>
+                   <input type="text" id="UserPassword" name="UserPassword">
+                   <div id="PasswordResult">  </div>
+
+                   <label for="ConfirmPassword">Confirm Password : </label>
+                   <input type="text" id="ConfirmPassword" name="ConfirmPassword">
+                   <div id="ConfirmPasswordResult">  </div>
+
+                   <input type="submit" id="sub"  value="Submit details" >
+             </form>
+      </div>
+          
+       </div>
+</body>
+</html>
