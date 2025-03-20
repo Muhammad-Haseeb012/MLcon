@@ -209,8 +209,8 @@ html,body{
 
   #card{
     width: 100%;
-   
-    background-color: red;
+   height: auto;
+    /* background-color: red; */
     margin-top:10px;
     display: flex;
 }
@@ -223,10 +223,10 @@ html,body{
 
 
 
-#card #right{
+#card #map{
     width: 50%;
-    height: 100%;
-    background-color: burlywood;
+
+
 }
 
 form label{ 
@@ -354,7 +354,7 @@ form input{
      width: 100%;
      height: auto;
    }
-   #card #right{
+   #card #map{
     width: 100%;
   }
 }  
